@@ -1,0 +1,50 @@
+.home {
+  height: 40vh;
+  text-align: left;
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 
+    Make the background image transparent  
+    https://coder-coder.com/background-image-opacity/
+*/
+.home::before {
+  content: "";
+  background-image: url("/public/images/header_background.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+
+.headline {
+  position: relative;
+  background-color: black;
+  padding: 36px;
+  border-radius: 16px;
+  color: white;
+}
+
+.my-image {
+  max-width: 12rem;
+}
+
+/* Fix For Mobile  */
+@media (max-width: 767px) {
+  .home {
+    /* Give extra room on mobile devices  */
+    height: 60vh;
+  }
+
+  .headline {
+    /* Add some spacing around the black headline box  */
+    margin: 16px;
+  }
+}
