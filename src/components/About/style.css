@@ -1,0 +1,16 @@
+.about {
+  padding: 24px;
+  color: white;
+}
+
+.ios {
+  background-color: gray;
+}
+
+.web {
+  background-color: green;
+}
+
+.python {
+  background-color: purple;
+}
