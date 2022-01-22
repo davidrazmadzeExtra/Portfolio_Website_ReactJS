@@ -1,14 +1,13 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-// Different Components
-import About from "./components/About";
-import Footer from "./components/Footer";
-import Home from "./components/Home";
-import Projects from "./components/Projects";
-import Work from "./components/Work";
+// Different Components (in order)
 import NavBar from "./components/NavBar";
+import Home from "./components/Home";
+import About from "./components/About";
+import Work from "./components/Work";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 function App() {
   return (

@@ -7,7 +7,7 @@ const Home = () => {
     <div className="home">
       <Container className="headline">
         <Row>
-          {/* Headline - This is what people will see first  */}
+          {/* 1. Headline - This is what people will see first  */}
           <Col>
             <h1>Hi, I'm John.</h1>
             <h2>I love to build amazing apps.</h2>
@@ -16,7 +16,7 @@ const Home = () => {
               straight to the point. Use 3-5 sentences in this section.
               Highlight your current position and skillset.
             </p>
-            {/* Action Buttons */}
+            {/* 2. Action Buttons */}
             <Col>
               <Button variant="success" style={{ marginRight: "8px" }}>
                 Work With Me
@@ -24,7 +24,7 @@ const Home = () => {
               <Button variant="secondary">See My Past Work</Button>
             </Col>
           </Col>
-          {/* Picture of Yourself - people will want to see what you look like  */}
+          {/* 3. Picture of Yourself - people will want to see what you look like  */}
           <Col md={3}>
             <img
               src="images/me.png"
